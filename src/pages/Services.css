@@ -1,0 +1,42 @@
+.NewsGrid{
+    min-height: 100vh;
+    padding: .6rem;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    gap: 1rem;
+}
+.NewsCard{
+    min-height: 40rem;
+    min-width: 26rem;
+    border-radius:12px ;
+    background-color: black;
+    color:white;
+    overflow: hidden;
+}
+.NewsCard img{
+   height: 60%;
+   width: 100%;
+   object-fit: cover; 
+}
+
+.NewsCard h2{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-top: .5rem;
+    margin-left: .5rem;
+
+}
+.NewsCard h3{
+    margin-top: .5rem;
+    margin-left: .5rem;
+}
+.NewsCard h4{
+    margin-top: .5rem;
+    margin-left: .5rem;
+}
+.NewsCard button{
+    margin-top: .5rem;
+    margin-left: .5rem;
+}

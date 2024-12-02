@@ -1,0 +1,42 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .6rem 0.8rem;
+    background-color: black;
+    color: white;
+}
+
+#SearchBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .5rem;
+    width: 40% ;
+
+}
+#SearchBar input {
+    width: 100%;
+    padding: .5rem 1rem;
+    background-color: rgb(70, 67, 67);
+    color: white;
+}
+#SearchBar button{
+    padding: .5rem 1rem;
+    background-color: #efe6e6;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+ul li a{
+  color:white ;
+}
